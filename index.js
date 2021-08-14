@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const _function = require('./lib/function')
 const Connect = require('node-telegram-bot-api')
-const token = '1905595196:AAFTgtpYf0tJ_g-Go7MCp5VAW0f30LOANvg'
+const token = '' // < PUT YOUR TOKEN HERE!!
 if(token == '') return console.log('Token empty!')
 const conn = new Connect(token, { polling: true })
 conn.on('message', async (m) => {
