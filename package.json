@@ -1,0 +1,20 @@
+{
+  "name": "Telebot-Music",
+  "version": "1.0.0",
+  "description": "Simple Telegram BOT to download music from Youtube.",
+  "main": "index.js",
+  "scripts": {
+        "start": "node index.js"
+   },
+  "author": "Wildan Izzudin",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "html-entities": "^2.3.2",
+    "jsdom": "^16.7.0",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.54.0",
+    "path": "^0.12.7",
+    "yt-search": "^2.10.0"
+  }
+}
